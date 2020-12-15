@@ -142,9 +142,13 @@ nav a.btn_destaque {
   margin-left: 30px;
 }
 
-.sec_fale_onde {
+.sec_fale, .sec_onde {
   height: 500px;
   background-color: #FAFAFA;
+}
+
+.sec_onde, .metade{
+  padding-top: 100px;
 }
 
 .metade {
@@ -193,7 +197,13 @@ nav a.btn_destaque {
   text-decoration: none;
 }
 
-@media screen and (max-width: 560px) {
+/* Tablets e computadores */
+@media screen and (max-width: 481px) and (max-width: 1366px) {
+
+}
+
+/* Smartphones */
+@media screen and (max-width: 480px) {
   .barra_superior .container {
     margin-left: 10px;
   }
